@@ -1,0 +1,60 @@
+Jun 21, 2021 3:36:49 AM org.example.jdbc.TransactionManager executeWithoutSynchronization
+INFO: Execute Without Synchronization
+Jun 21, 2021 3:36:49 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 get customers
+Jun 21, 2021 3:36:49 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 get customers
+Jun 21, 2021 3:36:49 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 update customers
+Jun 21, 2021 3:36:50 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 get customers
+Jun 21, 2021 3:36:50 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 update customers
+Jun 21, 2021 3:36:50 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 commit
+Jun 21, 2021 3:36:50 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 update customers
+Jun 21, 2021 3:36:50 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 commit
+Jun 21, 2021 3:36:51 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 commit
+Jun 21, 2021 3:37:49 AM org.example.jdbc.TransactionManager executeWithSynchronization
+INFO: Execute With Synchronization
+Jun 21, 2021 3:37:49 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 get customers
+Jun 21, 2021 3:37:49 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 update customers
+Jun 21, 2021 3:37:50 AM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 commit
+Jun 21, 2021 3:37:51 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 get customers
+Jun 21, 2021 3:37:51 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 update customers
+Jun 21, 2021 3:37:51 AM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 commit
+Jun 21, 2021 3:37:51 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 get customers
+Jun 21, 2021 3:37:52 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 update customers
+Jun 21, 2021 3:37:53 AM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 commit
+Jun 21, 2021 1:28:49 PM org.example.jdbc.TransactionManager executeWithSynchronization
+INFO: Execute With Synchronization
+Jun 21, 2021 1:28:49 PM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 get customers
+Jun 21, 2021 1:28:49 PM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 update customers
+Jun 21, 2021 1:28:50 PM org.example.jdbc.TransactionManager transactionT1
+INFO: T1 commit
+Jun 21, 2021 1:28:51 PM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 get customers
+Jun 21, 2021 1:28:51 PM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 update customers
+Jun 21, 2021 1:28:51 PM org.example.jdbc.TransactionManager transactionT3
+INFO: T3 commit
+Jun 21, 2021 1:28:51 PM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 get customers
+Jun 21, 2021 1:28:52 PM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 update customers
+Jun 21, 2021 1:28:53 PM org.example.jdbc.TransactionManager transactionT2
+INFO: T2 commit
